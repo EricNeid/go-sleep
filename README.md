@@ -16,7 +16,7 @@ make build
 Download tool.
 
 ```bash
-go install EricNeid/go-sleep/cmd/sleep
+go install github.com/EricNeid/go-sleep/cmd/sleep
 ```
 
 Make sure that $GOPATH/bin is in your path.
