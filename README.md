@@ -16,6 +16,7 @@ make build
 Download tool.
 
 ```bash
+go get github.com/EricNeid/go-sleep/cmd/sleep
 go install github.com/EricNeid/go-sleep/cmd/sleep
 ```
 
