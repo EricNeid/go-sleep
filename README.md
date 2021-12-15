@@ -13,13 +13,25 @@ SPDX-License-Identifier: CC-BY-4.0
 
 Just sleep for windows.
 
-## Getting started
+## Quickstart
 
 Make sure that docker is installed and checkout the project.
 
 ```bash
-make test
-make build
+make all
+```
+
+## Installation
+
+Simply grep the latest available binary from the release page and put it somewhere in your path.
+
+If go is installed and $GOPATH/bin is in your path, you can download and install the tool directly
+by using go install.
+
+Download tool:
+
+```bash
+go install github.com/EricNeid/go-sleep/cmd/sleep@v0.2.0
 ```
 
 ## Usage
