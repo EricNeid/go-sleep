@@ -1,9 +1,13 @@
+// SPDX-FileCopyrightText: 2021 Eric Neidhardt
+// SPDX-License-Identifier: MIT
 package main
 
-import "os"
-import "strconv"
-import "fmt"
-import "time"
+import (
+	"fmt"
+	"os"
+	"strconv"
+	"time"
+)
 
 func main() {
 	sleep := 1
